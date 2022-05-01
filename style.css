@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
     background: linear-gradient(225deg,purple,crimson);
@@ -14,16 +15,58 @@ body {
 }
 
 .calcBody {
-    width: 500px;
-    height: 600px;
+    width: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
+}
+
+.output-fields > div{
     border: 1px solid;
+    height: 5vh;
+    color: white;
+    background-color: rgb(0,0,0,0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output-fields .previous-operations{
+    font-size: 1.5rem;
+    color: rgb(255,255,255, 0.7);
+}
+
+.output-fields .current-operations{
+    font-size: 2.5rem;
+    color: rgb(255,255,255);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 24px;
+}
+
+.buttons > button:hover{
+    cursor: pointer;
+    background-color: rgb(255,255,255, 0.9);
 }
 
 button {
-    width: 80px;
-    height: 80px;
+    width: 25%;
+    height: 60%;
+    margin: 2%;
+    background-color: rgb(255,215,0, 0.75);
+    border: 2px solid white;
+}
+
+.big-buttons{
+    width: 50%;
 }
 
 output {
@@ -31,21 +74,4 @@ output {
     text-align: end;
     padding: 2%;
     border: 1px solid;
-}
-
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 8%;
-}
-
-.buttons > div {
-    display: flex;
-    align-items: flex-end;
-}
-
-.grid {
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
 }
