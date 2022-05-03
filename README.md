@@ -4,4 +4,12 @@ This project aims to create an on screen calculator. Users will be able to inter
 
 Through this project I learned:
 
-(to be updated)
+1) DOM manipulation to add text to the screen and react to user actions and inputs
+
+2) Working with JavaScript to write functions that can manipulate user entered data and events
+
+3) Working with class constuctors to create objects to store and use user inputed data
+
+4) Using JavaScript to perform actions and then returning the output to the screen and DOM
+
+5) Designing and implementing a web app from scratch.
