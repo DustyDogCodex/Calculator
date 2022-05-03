@@ -18,15 +18,13 @@
         <section class="calcBody">
             <div class="output-fields">
                 <div data-previous-operations class = "previous-operations"></div>   <!--this shows the previous operation entered before current operation-->
-                <div data-current-operations class = "current-operations">
-                      
-                </div>    <!--this shows the current operation being entered-->
+                <div data-current-operations class = "current-operations"></div>     <!--this shows the current operation being entered-->   
             </div>
              
             <div class="buttons">                           <!-- grid of all the available buttons in the calculator-->
                 <button data-all-clear class="big-buttons">AC</button> <!--using data attributes to identify data elements for JS instead of adding more classes-->
                 <button data-delete>DELETE</button>
-                <button data-operations>&#247;</button>     <!--Hex code for divison symbol-->
+                <button data-operations>/</button>    
                 <button data-numbers>1</button>
                 <button data-numbers>2</button>
                 <button data-numbers>3</button>
@@ -41,7 +39,7 @@
                 <button data-operations>-</button>
                 <button data-numbers>.</button>
                 <button data-numbers>0</button>
-                <button data-equals class="big-buttons">=</button>
+                <button data-equals class="big-buttons">=</button>  <!--big buttons indicate bigger buttons that will even out the button grid-->
             </div>
         </section>
         <script type="text/javascript" src="script.js"></script>
